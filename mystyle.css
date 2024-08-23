@@ -35,12 +35,12 @@ article {
 
 }
 
-/* Clear floats after the columns */
+/*Clear floats after the columns  */
 section::after {
   content: "";
   display: table;
   clear: both;
-}
+} 
 
 /* Style the footer */
 footer {
@@ -65,10 +65,11 @@ ul {
   margin: 0;
   padding: 0;
   width: 15%;
-  position:fixed;
+  position:;
   background-color:#d1dbca ;
   height:250px;
   overflow: auto;
+  float:left;
 
 }
 
@@ -83,4 +84,32 @@ li a {
 li a:hover:not(.active) {
   background-color: #5f7357;
   color: white;
+}
+ol {
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+}
+
+li {
+	
+}
+
+table {
+  font-size:22px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
