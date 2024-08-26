@@ -9,7 +9,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #458A2A;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -112,4 +112,11 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+img {
+  display:block;
+  margin:auto;
+  height:300px;
+  width; 300px;
 }
